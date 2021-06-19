@@ -64,12 +64,12 @@ sudo apt install ranger
 sudo apt install htop
 sudo apt install tmux
 
-sudo apt-get -y update
-sudo apt-get -y upgrade
-
 mkdir wordlist
 cd wordlist/
 git clone https://github.com/danielmiessler/SecLists.git
+
+sudo apt-get -y update
+sudo apt-get -y upgrade
 
 echo "Instalacija je gotova"
 echo "BTW Uživaj u novom operativnom sistemu koji je opremljen sa najnovijim alatima."
