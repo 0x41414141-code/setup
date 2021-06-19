@@ -17,10 +17,11 @@ cd Sublist3r*
 pip install -r requirements.txt
 cd ~/Tools/
 
-sudo apt-get -y install medusa
-sudo apt-get -y install cewl
-sudo apt-get -y install fcrackzip
-sudo apt-get -y install hydra
+sudo apt -y install medusa
+sudo apt -y install cewl
+sudo apt -y install fcrackzip
+sudo apt -y install hydra
+sudo apt -y install openvpn
 git clone https://github.com/Screetsec/Brutesploit.git
 cd Brutesploit
 chmod +x Brutesploit
@@ -52,7 +53,7 @@ go build
 cd ~/Tools/
 
 
-sudo apt-get install -y wireshark
+sudo apt install -y wireshark
 
 git clone https://github.com/radareorg/radare2.git
 cd  radare2
@@ -60,10 +61,10 @@ sys/install.sh
 cd ~/
 
 pip3 install pwntools 
-sudo apt install nasm
-sudo apt install ranger
-sudo apt install htop
-sudo apt install tmux
+sudo apt -y install nasm
+sudo apt -y install ranger
+sudo apt -y install htop
+sudo apt -y install tmux
 
 mkdir wordlist
 cd wordlist/
