@@ -57,9 +57,10 @@ sudo apt-get install -y wireshark
 git clone https://github.com/radareorg/radare2.git
 cd  radare2
 sys/install.sh
-
 cd ~/
 
+pip3 install pwntools 
+sudo apt install nasm
 sudo apt install ranger
 sudo apt install htop
 sudo apt install tmux
