@@ -34,5 +34,6 @@ git clone https://github.com/0x41414141-code/setup
 cd setup/
 chmod +x setup.sh
 sudo ./setup.sh
-rm setup.sh
+cd ~
+rm -rf setup/
 ```
