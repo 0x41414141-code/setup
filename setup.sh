@@ -26,6 +26,7 @@ git clone https://github.com/Screetsec/Brutesploit.git
 cd Brutesploit
 chmod +x Brutesploit
 sudo ./Brutesploit
+kill -s SIGINT <PID>
 cd ~/Tools/
 
 git clone https://github.com/SecureAuthCorp/impacket.git
