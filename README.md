@@ -31,6 +31,7 @@
 ```
 cd ~
 git clone https://github.com/0x41414141-code/setup
+cd setup/
 chmod +x setup.sh
 ./setup.sh
 rm setup.sh
